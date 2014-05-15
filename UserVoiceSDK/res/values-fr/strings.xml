@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+
     <plurals name="uv_comments">
         <item quantity="one">commentaire</item>
         <item quantity="other">commentaires</item>
     </plurals>
-    
+
     <plurals name="uv_subscribers">
         <item quantity="one">abonné</item>
         <item quantity="other">abonnés</item>
     </plurals>
-    
+
     <plurals name="uv_articles">
         <item quantity="one">article</item>
         <item quantity="other">articles</item>
     </plurals>
-    
+
     <plurals name="uv_ideas">
         <item quantity="one">idée</item>
         <item quantity="other">idées</item>
     </plurals>
-    
+
     <plurals name="uv_people">
         <item quantity="one">personne</item>
         <item quantity="other">personnes</item>
@@ -103,11 +103,11 @@
     <string name="uv_all_results_filter">TOUS</string>
     <string name="uv_articles_filter">ARTICLES</string>
     <string name="uv_ideas_filter">IDEES</string>
-	<string name="uv_comment_hint">Entrez votre commentaire</string>
-	<string name="uv_cancel">Annuler</string>
-	<string name="uv_select_none">(aucun)</string>
-	<string name="uv_confirm">Confirmer</string>
-	<string name="uv_msg_confirm_discard_idea">Etes-vous sûr de vouloir abandonner cette idée\u00a0?</string>
-	<string name="uv_msg_confirm_discard_message">Etes-vous sûr de vouloir abandonner ce message\u00a0?</string>
-    <string name="uv_msg_bad_email_format">S'il vous plait entez une adresse email valide.</string>
+    <string name="uv_comment_hint">Entrez votre commentaire</string>
+    <string name="uv_cancel">Annuler</string>
+    <string name="uv_select_none">(aucun)</string>
+    <string name="uv_confirm">Confirmer</string>
+    <string name="uv_msg_confirm_discard_idea">Etes-vous sûr de vouloir abandonner cette idée\u00a0?</string>
+    <string name="uv_msg_confirm_discard_message">Etes-vous sûr de vouloir abandonner ce message\u00a0?</string>
+    <string name="uv_msg_bad_email_format">S\'il vous plait entez une adresse email valide.</string>
 </resources>

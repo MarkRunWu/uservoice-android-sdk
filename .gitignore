@@ -8,3 +8,4 @@ out
 proguard_logs
 */build/*
 .gradle
+*.iml
