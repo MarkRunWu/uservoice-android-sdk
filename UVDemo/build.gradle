@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.9.+'
+        classpath 'com.android.tools.build:gradle:0.14.+'
     }
 }
 
@@ -15,8 +15,8 @@ repositories {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    compileSdkVersion 21
+    buildToolsVersion '21.0.2'
 
     sourceSets {
         main {
@@ -60,6 +60,6 @@ tasks.whenTaskAdded { theTask ->
 }
 
 dependencies {
-  compile 'com.android.support:support-v4:19.0.1'
-  compile project(':UserVoiceSDK')
+    compile 'com.android.support:support-v4:20.+'
+    compile project(':UserVoiceSDK')
 }
