@@ -11,16 +11,6 @@ buildscript {
 apply plugin: 'android-library'
 
 apply plugin: 'maven'
- 
-uploadArchives {
-    repositories.mavenDeployer {
-        pom.groupId = 'com.uservoice'
-        pom.artifactId = 'uservoice-android-sdk'
-        pom.version = '1.2.0'
-        // Add other pom properties here if you want (developer details / licenses)
-        repository(url: "file:///Users/austin/code/")
-    }
-}
 
 task sourcesJar(type: Jar) {
     classifier = 'sources'
